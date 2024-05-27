@@ -1,0 +1,71 @@
+/*
+Theme Name: Custom theme
+Description: A custom theme for the Soapy company
+Author: Abdur
+Version: 1.0
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2626ff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 50px; /* Reduced the size of the logo */
+    height: auto;
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2626ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px; /* Reduced padding to make the footer shorter */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px; /* Adjust font size if needed */
+}
+
+footer nav {
+    margin-bottom: 5px; /* Adjust margin to reduce space */
+}
+
+footer p {
+    margin: 0;
+}
